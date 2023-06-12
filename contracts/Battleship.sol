@@ -92,7 +92,7 @@ contract Battleship {
         );
         require(
             games[gameId].winner == msg.sender,
-            "Only the winner can call this function"
+            "Only and only the winner can call this function"
         );
         _;
     }
